@@ -7,7 +7,7 @@
 }
 
 body{
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: black;
     color: white;
@@ -17,8 +17,25 @@ body{
     color: aqua;
 }
 
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-menu-link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: aqua;
+    text-decoration: none;
+}
+
 .apresentacao{
-    margin: 10% 15%;
+    padding: 6% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -62,9 +79,12 @@ body{
 
 .apresentacao-links-social{
     /* background-color: aqua;*/
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid aqua;
     width: 378px;
-    text-align: center;
+    /* text-align: center; */
     border-radius: 8px;
     font-size: 24px;
     padding: 21.5px 0px;
@@ -72,5 +92,20 @@ body{
     color: #f6f6f6;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
+}
+
+.apresentacao-links-social:hover{
+    background-color: #272727;  
+}
+
+.rodape{
+    padding: 24px;
+    color: black;
+    background-color:aqua;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 
 }
+
